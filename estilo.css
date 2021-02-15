@@ -1,43 +1,35 @@
-h1 {
+ /*h1 {
     font-family:Verdana, Geneva, Tahoma, sans-serif; 
     font-size:xx-large;
-    color:dimgray;}
-
-div h1 {
-    /*background:lightskyblue;*/
-    width: 900px;
-    padding-bottom: 0px;
-    margin: 0px;
-    text-align: center;}
-
-.caja {
-    width: 200px;
-    padding: 100px;
-    margin: 10px;
-    border-style:solid;
-    border-width: 30px;
-    border-color:lightskyblue;
-    margin-inline-start: 30%;}
-
-
-p {
-    background:lightskyblue;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
-    color:teal;
-    width: 220px;
-    font-weight: bold;
+    color:crimson;
     text-align: center;
-    margin-bottom: 5px;}
+    position:relative;
+    top: 200px;}
 
-/* div p {
-   background:papayawhip;
-    height: 30px;
-    width: 200px;
-    padding: 100px;
-    margin: 10px;
-    border-style:solid;
-    border-width: 30px;
-    border-color:lightskyblue;
-    margin-inline-start: 30%;}*/
+    width: 800px;
+    padding-top:200px;
+    margin: 0px;}*/
+
+.p1 {
+    background-image:url(img/kandinsky.png);
+    width: 1000px;
+    height: 600px;
+
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+    color:teal;
+    position:sticky;
+    top: 2px;}
+    
+
+.p2 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+    color:black;
+    width: 500px;
+    position: relative;
+    left: 30px;
+    top: -600px;}
 
